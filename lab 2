@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    double z1,z2,alpha,betta;
+    printf("alpha=");
+    scanf("%lf", &alpha);
+    printf("betta=");
+    scanf("%lf", &betta);
+
+    z1=(sin(alpha)+cos(2*betta-alpha))/(cos(alpha)-sin(2*betta-alpha));
+    z2=(1+sin(2*betta))/(cos(2*betta));
+    printf("z1=");
+    printf("%lf\n", z1);
+    printf("z2=");
+    printf("%lf\n", z2);
+    return 0;
+}
