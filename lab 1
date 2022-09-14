@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    char f[5];
+    int n;
+    printf("f= ");
+    scanf("%s", &f);
+
+    printf("n= ");
+    scanf("%d", &n);
+
+    printf("%s\n", f);
+    printf("%d", n);
+
+    return 0;
+}
